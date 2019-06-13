@@ -14,6 +14,6 @@
 <img src="Themes/Screenshot (50).png" width="700px"/>
 <img src="Themes/Screenshot (49).png" width="700px"/>
 
-<h6>Cơ sở dữ liệu</h6>
+<h6>Phần cơ sở dữ liệu</h6>
 <img src="add1/Screenshot (53).png" width="700px"/>
 <img src="add1/Screenshot (54).png" width="700px"/>
