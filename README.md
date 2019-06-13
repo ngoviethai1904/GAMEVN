@@ -1,7 +1,7 @@
 <h1>GAMEVN</h1>
 </br>
 <h2>Có 2 themes chuyển đổi giao diện của trang web</h2>
-<img src="Themes/Screenshot (51).png"  width="700px"/>
+<img src="Themes/Screenshot (47).png"  width="700px"/>
 <img src="Themes/Screenshot (48).png"  width="700px"/>
 
 <h3>Phần đăng nhập</h3>
