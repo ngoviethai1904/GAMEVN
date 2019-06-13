@@ -1,0 +1,242 @@
+﻿
+
+*
+{
+  font-family: Arial;
+  font-size:18px;
+}
+p {
+    font-size:17px;
+    font-family:'Times New Roman';
+    color:	#8B4513
+}
+body
+{
+  margin: 0;
+  background:url("https://chupacdn.s3.amazonaws.com/catalog/product/cache/1/thumbnail/1280x/17f82f742ffe127f42dca9de82fb58b1/g/a/game-background-7980_imgs_7980_4.jpg");
+  
+}
+
+a
+{
+  text-decoration: none;
+  /*color: 	#9ACD32;*/
+  color:	#191970;
+}
+
+  a:hover
+  {
+    text-decoration: underline;
+  }
+
+h1
+{
+  font-size: 20px;
+  color:	#7CFC00;
+}
+
+h3
+{
+  font-size: 20px;
+  color:	#8B008B;
+}
+
+h4
+{
+  font-size: 20px;
+  color:		#9370DB;
+}
+
+h2
+{
+  font-size: 14px;
+  color: #7773A1;
+  margin-top: 10px;
+}
+
+#PageWrapper
+{
+  width: 844px;
+  background-color: blue;
+  margin: auto;
+}
+
+header
+{
+  background-image: url(https://zingtv-photo.zadn.vn/channel/a/3/2/a/a32a6ca0ffb535d10178b774b87f2c43.jpg);
+  width: 844px;
+  height: 86px;
+}
+
+
+  header a
+  {
+    width: 844px;
+    height: 86px;
+    display: block;
+  }
+
+nav
+{
+  
+  width: 827px;
+  height: 36px;
+  padding-top: 7px;
+  padding-left: 17px;
+}
+
+  nav a
+  {
+    color: #fff;
+  }
+
+.MainMenu
+{
+  margin-top:4px;
+  width: 814px;
+  height: 19px;
+  background-color: red;
+}
+
+  .MainMenu ul li
+  {
+    width: 160px;
+  }
+
+section#MainContent
+{
+  font-size: 0.8em;
+  color:Black;
+  width: 660px;
+  border-left: 1px solid white;
+  border-right: 2px solid white;
+  float: left;
+  background-color: lightgrey;
+  min-height: 500px;
+  padding: 10px;
+}
+
+aside#Sidebar
+{
+  font-size: 0.8em;
+  color: white;
+  background-image: url(Images/Sidebar.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+  width: 141px;
+  min-height: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  float: left;
+}
+
+footer
+{
+  width: auto;
+  clear: both;
+  height: auto;
+  background-color: yellow;
+  color: #FF0000;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 37px;
+}
+
+.Introduction
+{
+  font-style: italic;
+  color: #3e3e3e;
+}
+.MyButton {
+    color:white;
+}
+
+.MainMenu ul.level1
+ 
+{
+    font-size: 14px;
+    font-weight: bold;
+    height: 19px; 
+    line-height: 19px;
+}
+ 
+.MainMenu ul.level1 .selected
+ 
+{  
+    background-color: #509EE7; 
+}
+ 
+.MainMenu a.level1
+ 
+{ 
+    padding-left: 5px !important;
+}
+ 
+.MainMenu a.level2
+ 
+{
+ 
+    background-color: #555555;
+ 
+    padding-left: 8px;
+ 
+}
+ 
+.MainMenu a.level1:hover, a.level2:hover
+ 
+{
+ 
+    background-color: blue;
+ 
+}
+
+img { border: 0; }
+
+.ErrorMessage {
+    color: violet;
+}
+
+.AJAX {
+    height: 32px;
+    width: 500px;
+    background-image: url(Images/ajax.gif);
+    background-repeat: no-repeat;
+    padding-left: 40px; 
+    line-height: 32px;
+}
+
+.Attention {
+    border: 4px solid red;
+    padding: 10px 0;
+    width: 100px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.ItemContainer
+ 
+{
+    width: 600px;
+    list-style-type: none; 
+    clear: both;
+}
+ 
+.ItemContainer li
+ 
+{
+    height: 300px;
+ 
+    width: 200px;
+ 
+    float: left;
+}
+ 
+.ItemContainer li img
+ 
+{
+    width: 180px;
+    margin: 10px 20px 10px
+}

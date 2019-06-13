@@ -1,0 +1,53 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Frontend.Master.vb" Inherits="Site.Site1" %>
+<%@ Register src="../Banners.ascx" tagname="Banners" tagprefix="uc1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="../Scripts/modernizr-2.6.2.js" ></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true">
+            <Scripts>
+                    <asp:ScriptReference Path="~/Scripts/jquery-3.1.1.min.js" />
+            </Scripts>
+        </asp:ScriptManager>
+
+    <div id="PageWrapper">
+
+        <header><a href ="../Content.aspx"></a></header>
+        <nav>
+            <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+        </nav>
+        <section id="MainContent">
+            <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath> 
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </section>
+        <aside id="Sidebar">
+            <p style="width: 148px;margin-left:-10px">Tùy Chọn</p>
+            <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True">
+                <asp:ListItem>DarkGrey</asp:ListItem>             
+                <asp:ListItem>Monochrome</asp:ListItem>
+            </asp:DropDownList>
+            <br />
+            <br />
+            <uc1:Banners ID="Banners1" runat="server" />
+            <br />
+            <asp:Button ID="Button1" runat="server" Text="clock" />
+            <asp:Label ID="Label1" runat="server"></asp:Label>
+            </aside>
+    </div>
+
+    </form>
+        <footer>Liên hệ với tôi: ngoviethai55kttt@gmail.com</footer>
+    </body>
+</html>

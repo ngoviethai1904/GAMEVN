@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ngoviethai_WebGameModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ngoviethai_WebGameEntities1" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Genres" EntityType="ngoviethai_WebGameModel.Genre" />
+    <EntitySet Name="Reviews" EntityType="ngoviethai_WebGameModel.Review" />
+    <AssociationSet Name="FK_Review_Genre" Association="ngoviethai_WebGameModel.FK_Review_Genre">
+      <End Role="Genre" EntitySet="Genres" />
+      <End Role="Review" EntitySet="Reviews" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="SortOrder" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Review" Relationship="ngoviethai_WebGameModel.FK_Review_Genre" FromRole="Genre" ToRole="Review" />
+  </EntityType>
+  <EntityType Name="Review">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Summary" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Body" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Genreld" Type="Int32" Nullable="false" />
+    <Property Name="Authorized" Type="Boolean" Nullable="false" />
+    <Property Name="CreateDateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UpdateDateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Genre" Relationship="ngoviethai_WebGameModel.FK_Review_Genre" FromRole="Review" ToRole="Genre" />
+  </EntityType>
+  <Association Name="FK_Review_Genre">
+    <End Role="Genre" Type="ngoviethai_WebGameModel.Genre" Multiplicity="1" />
+    <End Role="Review" Type="ngoviethai_WebGameModel.Review" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Genre">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Review">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

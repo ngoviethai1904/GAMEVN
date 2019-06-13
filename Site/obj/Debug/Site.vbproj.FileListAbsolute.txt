@@ -1,0 +1,57 @@
+c:\users\edogawa doras\documents\visual studio 2012\Projects\Site\Site\obj\Debug\Site.Resources.resources
+c:\users\edogawa doras\documents\visual studio 2012\Projects\Site\Site\obj\Debug\Site.vbproj.GenerateResource.Cache
+c:\users\edogawa doras\documents\visual studio 2012\Projects\Site\Site\bin\Site.dll
+c:\users\edogawa doras\documents\visual studio 2012\Projects\Site\Site\bin\Site.pdb
+c:\users\edogawa doras\documents\visual studio 2012\Projects\Site\Site\bin\Site.xml
+c:\users\edogawa doras\documents\visual studio 2012\Projects\Site\Site\obj\Debug\Site.dll
+c:\users\edogawa doras\documents\visual studio 2012\Projects\Site\Site\obj\Debug\Site.xml
+c:\users\edogawa doras\documents\visual studio 2012\Projects\Site\Site\obj\Debug\Site.pdb
+D:\Site\Site\bin\Site.dll
+D:\Site\Site\bin\Site.pdb
+D:\Site\Site\bin\Site.xml
+D:\Site\Site\obj\Debug\Site.Resources.resources
+D:\Site\Site\obj\Debug\Site.vbproj.GenerateResource.Cache
+D:\Site\Site\obj\Debug\Site.dll
+D:\Site\Site\obj\Debug\Site.xml
+D:\Site\Site\obj\Debug\Site.pdb
+D:\WebGame\Site\bin\Site.dll
+D:\WebGame\Site\bin\Site.pdb
+D:\WebGame\Site\bin\Site.xml
+D:\WebGame\Site\obj\Debug\Site.Resources.resources
+D:\WebGame\Site\obj\Debug\Site.vbproj.GenerateResource.Cache
+D:\WebGame\Site\obj\Debug\Site.dll
+D:\WebGame\Site\obj\Debug\Site.xml
+D:\WebGame\Site\obj\Debug\Site.pdb
+G:\WebGame\Site\obj\Debug\Site.Resources.resources
+G:\WebGame\Site\obj\Debug\Site.vbproj.GenerateResource.Cache
+G:\WebGame\Site\obj\Debug\Site.dll
+G:\WebGame\Site\obj\Debug\Site.xml
+G:\WebGame\Site\obj\Debug\Site.pdb
+D:\vidu\WebGame\Site\obj\Debug\Site.Resources.resources
+D:\vidu\WebGame\Site\obj\Debug\Site.vbproj.GenerateResource.Cache
+D:\vidu\WebGame\Site\obj\Debug\Site.dll
+D:\vidu\WebGame\Site\obj\Debug\Site.xml
+D:\vidu\WebGame\Site\obj\Debug\Site.pdb
+D:\vidu\WebGame\Site\bin\Site.dll
+D:\vidu\WebGame\Site\bin\Site.pdb
+D:\vidu\WebGame\Site\bin\Site.xml
+D:\vidu\WebGame\Site\bin\Newtonsoft.Json.dll
+D:\vidu\WebGame\Site\bin\System.Net.Http.Formatting.dll
+D:\vidu\WebGame\Site\bin\System.Web.Http.dll
+D:\vidu\WebGame\Site\bin\System.Web.Http.WebHost.dll
+D:\vidu\WebGame\Site\bin\Newtonsoft.Json.xml
+D:\vidu\WebGame\Site\bin\System.Net.Http.Formatting.xml
+D:\vidu\WebGame\Site\bin\System.Web.Http.xml
+D:\vidu\WebGame\Site\bin\System.Web.Http.WebHost.xml
+D:\vidu\WebGame\Site\obj\Debug\Site.vbprojResolveAssemblyReference.cache
+D:\WebGame\Site\bin\Newtonsoft.Json.dll
+D:\WebGame\Site\bin\System.Net.Http.Formatting.dll
+D:\WebGame\Site\bin\System.Web.Http.dll
+D:\WebGame\Site\bin\System.Web.Http.WebHost.dll
+D:\WebGame\Site\bin\Newtonsoft.Json.xml
+D:\WebGame\Site\bin\System.Net.Http.Formatting.xml
+D:\WebGame\Site\bin\System.Web.Http.xml
+D:\WebGame\Site\bin\System.Web.Http.WebHost.xml
+D:\WebGame\Site\obj\Debug\Site.vbprojResolveAssemblyReference.cache
+D:\WebGame\Site\bin\EntityFramework.dll
+D:\WebGame\Site\bin\EntityFramework.xml

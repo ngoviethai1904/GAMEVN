@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  
+  <siteMapNode url="~/" title="Game Việt Nam"  description="Home">
+    <siteMapNode url="~/Content.aspx" title="Trang chủ"  description="Trang chủ" />
+    <siteMapNode url="~/theloai/theloai.aspx" title="Thể loại Game"  description="Thể loại Game">
+      <siteMapNode url="~/theloai/PubgVN.aspx" title="PubgVN"/>
+      <siteMapNode url="~/theloai/GameOnline.aspx" title="GameOnline" />
+      <siteMapNode url="~/theloai/DotKich.aspx" title="Đột Kích" />
+      <siteMapNode url="~/theloai/LienMinhHuyenThoai.aspx" title="Liên minh huyền thoại" />
+    </siteMapNode>
+    
+    <siteMapNode url="~/Tintuc/Tintuc.aspx" title="Tin tức Game" description="Tin tức Game">
+      <siteMapNode url="~/Tintuc/CamnangGame.aspx/" title="Cẩm nang Game"/>
+      <siteMapNode url="~/Tintuc/GiaidauGame.aspx" title="Giai đấu Game" />
+      <siteMapNode url="~/Tintuc/CongdongGame.aspx" title="Cộng đồng Game" />    
+      <siteMapNode url="~/Tintuc/KhuyenmaiGame.aspx" title="Khuyến mãi Game" />
+    </siteMapNode>
+    
+    <siteMapNode url="~/Napthe/Napthe.aspx" title="Nạp thẻ"  description="Nạp thẻ">
+      <siteMapNode url="~/Napthe/thevcoin.aspx" title="Thẻ Vcoin" />
+      <siteMapNode url="~/Napthe/theviettel.aspx" title="Thẻ Viettel" />
+    <siteMapNode url="~/Napthe/themobile.aspx" title="Thẻ Mobile" />
+    <siteMapNode url="~/Napthe/thezing.aspx" title="Thẻ Zing" />
+    </siteMapNode>
+  
+    <siteMapNode url="~/dangki.aspx" title="Đăng kí"  description="Đăng kí tài khoản Game" />
+    
+    </siteMapNode>
+    
+</siteMap>
