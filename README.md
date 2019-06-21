@@ -20,7 +20,5 @@ Giới thiệu các loại game được nhiều người chơi nhất</h1>
 
 <h6>Phần cơ sở dữ liệu liên kết với SQL</h6>
 <img src="add1/Screenshot (53).png" width="700px"/>
-<img src="add1/Screenshot (54).png" width="700px"/>
-
-<h7>Bổ sung thêm csdl SQL</h7>
+</br>
 <img src="add2/Screenshot (57).png" width="700px"/>
